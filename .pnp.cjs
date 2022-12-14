@@ -29,11 +29,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",\
           "packageDependencies": [\
             ["@types/node", "npm:18.11.15"],\
+            ["@types/prettier", "npm:2.7.1"],\
             ["@types/react", "npm:18.0.26"],\
             ["@types/react-dom", "npm:18.0.9"],\
             ["eslint", "npm:8.29.0"],\
             ["eslint-config-next", "virtual:6a21f5850f71037b28e53233ffd5cdf4bd36efbd26816b02757c8d2ac4cb38e57ccc10dcf0b6bc116b4112ff5dd8ace64d705e5089bcf44b55fbf1eb2e19c587#npm:13.0.6"],\
             ["next", "virtual:6a21f5850f71037b28e53233ffd5cdf4bd36efbd26816b02757c8d2ac4cb38e57ccc10dcf0b6bc116b4112ff5dd8ace64d705e5089bcf44b55fbf1eb2e19c587#npm:13.0.6"],\
+            ["prettier", "npm:2.8.1"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:6a21f5850f71037b28e53233ffd5cdf4bd36efbd26816b02757c8d2ac4cb38e57ccc10dcf0b6bc116b4112ff5dd8ace64d705e5089bcf44b55fbf1eb2e19c587#npm:18.2.0"],\
             ["typescript", "patch:typescript@npm%3A4.8.3#~builtin<compat/typescript>::version=4.8.3&hash=aae4e6"]\
@@ -325,6 +327,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/@types-node-npm-18.11.15-556d6408a5-cae8692a5c.zip/node_modules/@types/node/",\
           "packageDependencies": [\
             ["@types/node", "npm:18.11.15"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@types/prettier", [\
+        ["npm:2.7.1", {\
+          "packageLocation": "./.yarn/cache/@types-prettier-npm-2.7.1-d46ada27e6-5e3f58e229.zip/node_modules/@types/prettier/",\
+          "packageDependencies": [\
+            ["@types/prettier", "npm:2.7.1"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -2268,11 +2279,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["nextjs-template", "workspace:."],\
             ["@types/node", "npm:18.11.15"],\
+            ["@types/prettier", "npm:2.7.1"],\
             ["@types/react", "npm:18.0.26"],\
             ["@types/react-dom", "npm:18.0.9"],\
             ["eslint", "npm:8.29.0"],\
             ["eslint-config-next", "virtual:6a21f5850f71037b28e53233ffd5cdf4bd36efbd26816b02757c8d2ac4cb38e57ccc10dcf0b6bc116b4112ff5dd8ace64d705e5089bcf44b55fbf1eb2e19c587#npm:13.0.6"],\
             ["next", "virtual:6a21f5850f71037b28e53233ffd5cdf4bd36efbd26816b02757c8d2ac4cb38e57ccc10dcf0b6bc116b4112ff5dd8ace64d705e5089bcf44b55fbf1eb2e19c587#npm:13.0.6"],\
+            ["prettier", "npm:2.8.1"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:6a21f5850f71037b28e53233ffd5cdf4bd36efbd26816b02757c8d2ac4cb38e57ccc10dcf0b6bc116b4112ff5dd8ace64d705e5089bcf44b55fbf1eb2e19c587#npm:18.2.0"],\
             ["typescript", "patch:typescript@npm%3A4.8.3#~builtin<compat/typescript>::version=4.8.3&hash=aae4e6"]\
@@ -2514,6 +2527,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/prelude-ls-npm-1.2.1-3e4d272a55-cd192ec0d0.zip/node_modules/prelude-ls/",\
           "packageDependencies": [\
             ["prelude-ls", "npm:1.2.1"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["prettier", [\
+        ["npm:2.8.1", {\
+          "packageLocation": "./.yarn/cache/prettier-npm-2.8.1-be60b51821-4f21a0f126.zip/node_modules/prettier/",\
+          "packageDependencies": [\
+            ["prettier", "npm:2.8.1"]\
           ],\
           "linkType": "HARD"\
         }]\
