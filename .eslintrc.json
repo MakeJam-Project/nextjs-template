@@ -11,6 +11,8 @@
     "simple-import-sort",
     "unused-imports",
     "flowtype",
+    "jest",
+    "testing-library",
     "@emotion"
   ],
   "extends": [
