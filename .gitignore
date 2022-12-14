@@ -44,3 +44,9 @@ next-env.d.ts
 !.yarn/releases
 !.yarn/sdks
 !.yarn/versions
+
+# Cypress
+cypress/screenshots
+cypress/videos
+cypress/log
+cypress/downloads
