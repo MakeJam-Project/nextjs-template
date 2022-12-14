@@ -1,2 +1,1 @@
-# nextjs-template
-Next.js Project Template
+# JaeMe Next.js Starter
