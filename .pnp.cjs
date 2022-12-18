@@ -70,6 +70,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["next", "virtual:6a21f5850f71037b28e53233ffd5cdf4bd36efbd26816b02757c8d2ac4cb38e57ccc10dcf0b6bc116b4112ff5dd8ace64d705e5089bcf44b55fbf1eb2e19c587#npm:13.0.6"],\
             ["next-pwa", "virtual:6a21f5850f71037b28e53233ffd5cdf4bd36efbd26816b02757c8d2ac4cb38e57ccc10dcf0b6bc116b4112ff5dd8ace64d705e5089bcf44b55fbf1eb2e19c587#npm:5.6.0"],\
             ["next-seo", "virtual:6a21f5850f71037b28e53233ffd5cdf4bd36efbd26816b02757c8d2ac4cb38e57ccc10dcf0b6bc116b4112ff5dd8ace64d705e5089bcf44b55fbf1eb2e19c587#npm:5.15.0"],\
+            ["next-sitemap", "virtual:6a21f5850f71037b28e53233ffd5cdf4bd36efbd26816b02757c8d2ac4cb38e57ccc10dcf0b6bc116b4112ff5dd8ace64d705e5089bcf44b55fbf1eb2e19c587#npm:3.1.42"],\
             ["prettier", "npm:2.8.1"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:6a21f5850f71037b28e53233ffd5cdf4bd36efbd26816b02757c8d2ac4cb38e57ccc10dcf0b6bc116b4112ff5dd8ace64d705e5089bcf44b55fbf1eb2e19c587#npm:18.2.0"],\
@@ -2763,6 +2764,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["@commitlint/types", "npm:17.0.0"],\
             ["chalk", "npm:4.1.2"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@corex/deepmerge", [\
+        ["npm:4.0.29", {\
+          "packageLocation": "./.yarn/cache/@corex-deepmerge-npm-4.0.29-aacab9d89d-78626fd29c.zip/node_modules/@corex/deepmerge/",\
+          "packageDependencies": [\
+            ["@corex/deepmerge", "npm:4.0.29"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -10971,6 +10981,34 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["next-sitemap", [\
+        ["npm:3.1.42", {\
+          "packageLocation": "./.yarn/cache/next-sitemap-npm-3.1.42-933b7bf0d8-3c0f602f60.zip/node_modules/next-sitemap/",\
+          "packageDependencies": [\
+            ["next-sitemap", "npm:3.1.42"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:6a21f5850f71037b28e53233ffd5cdf4bd36efbd26816b02757c8d2ac4cb38e57ccc10dcf0b6bc116b4112ff5dd8ace64d705e5089bcf44b55fbf1eb2e19c587#npm:3.1.42", {\
+          "packageLocation": "./.yarn/__virtual__/next-sitemap-virtual-fc7dc33416/0/cache/next-sitemap-npm-3.1.42-933b7bf0d8-3c0f602f60.zip/node_modules/next-sitemap/",\
+          "packageDependencies": [\
+            ["next-sitemap", "virtual:6a21f5850f71037b28e53233ffd5cdf4bd36efbd26816b02757c8d2ac4cb38e57ccc10dcf0b6bc116b4112ff5dd8ace64d705e5089bcf44b55fbf1eb2e19c587#npm:3.1.42"],\
+            ["@corex/deepmerge", "npm:4.0.29"],\
+            ["@next/env", null],\
+            ["@types/next", null],\
+            ["@types/next__env", null],\
+            ["minimist", "npm:1.2.7"],\
+            ["next", "virtual:6a21f5850f71037b28e53233ffd5cdf4bd36efbd26816b02757c8d2ac4cb38e57ccc10dcf0b6bc116b4112ff5dd8ace64d705e5089bcf44b55fbf1eb2e19c587#npm:13.0.6"]\
+          ],\
+          "packagePeers": [\
+            "@next/env",\
+            "@types/next",\
+            "@types/next__env",\
+            "next"\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["nextjs-template", [\
         ["workspace:.", {\
           "packageLocation": "./",\
@@ -11018,6 +11056,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["next", "virtual:6a21f5850f71037b28e53233ffd5cdf4bd36efbd26816b02757c8d2ac4cb38e57ccc10dcf0b6bc116b4112ff5dd8ace64d705e5089bcf44b55fbf1eb2e19c587#npm:13.0.6"],\
             ["next-pwa", "virtual:6a21f5850f71037b28e53233ffd5cdf4bd36efbd26816b02757c8d2ac4cb38e57ccc10dcf0b6bc116b4112ff5dd8ace64d705e5089bcf44b55fbf1eb2e19c587#npm:5.6.0"],\
             ["next-seo", "virtual:6a21f5850f71037b28e53233ffd5cdf4bd36efbd26816b02757c8d2ac4cb38e57ccc10dcf0b6bc116b4112ff5dd8ace64d705e5089bcf44b55fbf1eb2e19c587#npm:5.15.0"],\
+            ["next-sitemap", "virtual:6a21f5850f71037b28e53233ffd5cdf4bd36efbd26816b02757c8d2ac4cb38e57ccc10dcf0b6bc116b4112ff5dd8ace64d705e5089bcf44b55fbf1eb2e19c587#npm:3.1.42"],\
             ["prettier", "npm:2.8.1"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:6a21f5850f71037b28e53233ffd5cdf4bd36efbd26816b02757c8d2ac4cb38e57ccc10dcf0b6bc116b4112ff5dd8ace64d705e5089bcf44b55fbf1eb2e19c587#npm:18.2.0"],\

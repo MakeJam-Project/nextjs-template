@@ -14,7 +14,8 @@
     "cypress:open": "cypress open",
     "cypress:run": "cypress run",
     "test:e2e": "start-server-and-test dev http://localhost:3000 cypress:run",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "postbuild": "next-sitemap"
   },
   "dependencies": {
     "@emotion/react": "^11.10.5",
@@ -63,6 +64,7 @@
     "jest-environment-jsdom": "^29.3.1",
     "lint-staged": "^13.1.0",
     "next-seo": "^5.15.0",
+    "next-sitemap": "^3.1.42",
     "prettier": "^2.8.1",
     "react-test-renderer": "^18.2.0",
     "start-server-and-test": "^1.15.2",
