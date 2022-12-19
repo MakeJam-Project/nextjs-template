@@ -36,6 +36,14 @@
         "plugin:@typescript-eslint/recommended"
       ],
       "rules": {}
+    },
+    {
+      "extends": ["plugin:storybook/recommended"],
+      "files": ["**/*.stories.tsx"],
+      "rules": {
+        "react/function-component-definition": "off",
+        "react/jsx-props-no-spreading": "off"
+      }
     }
   ],
   "parser": "@typescript-eslint/parser",
@@ -126,6 +134,24 @@
         "argsIgnorePattern": "^_"
       }
     ],
-    "react/jsx-props-no-spreading": "off"
+    "react/jsx-props-no-spreading": "off",
+    "import/no-extraneous-dependencies": [
+      "error",
+      {
+        "devDependencies": [
+          "**/*.test.ts",
+          "**/*.test.tsx",
+          "jest.setup.js",
+          "**/*.stories.tsx",
+          "cypress/**"
+        ]
+      }
+    ],
+    "react/require-default-props": [
+      2,
+      {
+        "ignoreFunctionalComponents": true
+      }
+    ]
   }
 }
